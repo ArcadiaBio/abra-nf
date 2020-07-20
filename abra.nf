@@ -111,6 +111,7 @@ assert (params.abra_path != true) && (params.abra_path != null) : "please specif
 
 fasta_ref = file(params.ref)
 fasta_ref_fai = file( params.ref+'.fai' )
+fasta_ref_gzi = file( params.ref+'.gzi' )
 fasta_ref_sa  = file( params.ref+'.sa' )
 fasta_ref_bwt = file( params.ref+'.bwt' )
 fasta_ref_ann = file( params.ref+'.ann' )
